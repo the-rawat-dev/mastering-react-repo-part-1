@@ -1,12 +1,11 @@
-import JSXRules from "./components/challenge-4/JSXRules";
-import Greeting from "./components/challenge-5/Greeting";
-import ProductInfo from "./components/challenge-5/ProductInfo";
+import ProductList from "./components/challenge-6/ProductList";
+import UserList from "./components/challenge-6/UserList";
 
 function App() {
   return (
     <div>
-      <Greeting />
-      <ProductInfo />
+      <UserList />
+      <ProductList />
     </div>
   );
 }
