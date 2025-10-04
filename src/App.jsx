@@ -1,7 +1,9 @@
+import Greet from "./components/challenge-1/Greet";
+
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Greet />
     </div>
   );
 }
