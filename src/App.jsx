@@ -1,9 +1,13 @@
-import Greet from "./components/challenge-1/Greet";
+import Footer from "./components/challenge-2/Footer";
+import Header from "./components/challenge-2/Header";
+import MainContent from "./components/challenge-2/MainContent";
 
 function App() {
   return (
     <div>
-      <Greet />
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
