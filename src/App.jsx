@@ -1,9 +1,9 @@
-import WelcomeMessage from "./components/challenge-3/WelcomeMessage";
+import JSXRules from "./components/challenge-4/JSXRules";
 
 function App() {
   return (
     <div>
-      <WelcomeMessage />
+      <JSXRules />
     </div>
   );
 }
