@@ -1,13 +1,12 @@
-import ProductList from "./components/challenge-6/ProductList";
-import UserList from "./components/challenge-6/UserList";
+import Person from "./components/challenge-7/Person";
+import Product from "./components/challenge-7/Product";
 
 function App() {
   return (
     <div>
-      <UserList />
-      <ProductList />
+      <Person name="Mukul" age={24} />
+      <Product name="iPhone16" price={90000} />
     </div>
   );
 }
-
 export default App;
