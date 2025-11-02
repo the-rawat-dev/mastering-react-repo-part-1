@@ -1,11 +1,24 @@
-import Person from "./components/challenge-7/Person";
-import Product from "./components/challenge-7/Product";
+import Greeting from "./components/challenge-8/Greeting";
+import UserStatus from "./components/challenge-8/UserStatus";
+import Weather from "./components/challenge-8/Weather";
 
 function App() {
   return (
     <div>
-      <Person name="Mukul" age={24} />
-      <Product name="iPhone16" price={90000} />
+      {/* Weather component  */}
+      <Weather temperature={10} />
+      <Weather temperature={20} />
+      <Weather temperature={40} />
+      {/* UserStatus component */}
+      <UserStatus loggedIn={true} />
+      <UserStatus loggedIn={false} />
+      <UserStatus isAdmin={true} loggedIn={true} />
+
+      {/* Greeting component */}
+      <Greeting timeOfDay="morning" />
+      <Greeting timeOfDay="afternoon" />
+      <Greeting timeOfDay="evening" />
+      <Greeting timeOfDay="night" />
     </div>
   );
 }
